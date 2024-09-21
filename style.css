@@ -1,0 +1,234 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family:Arial, Helvetica, sans-serif
+}
+nav{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.navbar img{
+    width: 270px;
+    position: absolute;
+    position: inherit;
+}
+
+.navbar{
+    display: flex;
+    width: 75%;
+    height: 45px;
+    
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    padding-right: 10px;
+    margin-top: 4px;
+    flex-wrap: wrap;
+}
+
+.navbar ul li{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px;
+    text-decoration: underline transparent 2px solid;
+    transition: 1s;
+}
+.navbar ul li:hover{
+    text-decoration: underline rgb(153, 73, 227);
+}
+.container-fluid{
+    background-color:#deccff ;
+    height: 65vh;
+}
+
+
+.container-fluid .row h1{
+font-weight: 500;
+color: #6e1f8f;
+text-shadow: 1px 1px;
+}
+.container-fluid .row h4{
+font-weight: 600;
+color: #6e1f8f;
+text-shadow: 1px 1px;
+}
+.container-fluid .row p{
+    font-weight: 600;
+    text-align: justify;
+    color: black;
+}
+
+.container-fluid  .row img{
+    height: 80%;
+}
+
+.container-2{
+    height: 50vh;
+    color: #6e1f8f;
+    text-shadow: 1px 1px;
+    font-weight: 600;
+    font-size: 2em;
+}
+.container-fluid ,.container-2 p{
+    color: black;
+    font-size: 15px;
+    text-shadow: none;
+    font-weight: normal;
+    text-align: center;
+    
+}
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.search input{
+   width: 70vw;
+   border: none;
+   height: 40px;
+}
+.search input:focus{
+    outline: none;
+}
+.search input::placeholder{
+    font-size: 1.3em;
+    color: rgba(10, 9, 9, 0.288);
+}
+ .fa-search{
+   color: #6e1f8f;
+   padding-top: 30px;
+   text-align: center;
+   padding-right: 25px;
+  
+}
+.row hr{
+    color: black;
+    width: 75vw;
+    
+ }
+ 
+.mainrow{
+    display: flex;
+    justify-content: center;
+}
+ .row .main{
+  width: 340px;
+    height: 630px;
+    background-color:rgba(0, 0, 0, 0.033);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    transition: 0.5s;
+    margin-left: 20px;
+    margin-top: 20px;
+ }
+ .row .main-1{
+    width: 340px;
+    height: 630px;
+    margin-left: 20px;
+    padding: 10px;
+ }
+ /* hover section */
+ .main:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3); /* More pronounced shadow on hover */
+    background-color: white;
+}
+
+.main:hover .imagewraper{
+    background-color: #6e1f8f;
+}
+
+.main:hover .imagewraper img {
+    filter: brightness(0) invert(1); /* Makes the image white */
+}
+.main:hover .hoverbtn{
+    background-color: #6e1f8f;
+}
+.main .hoverbtn{
+   color: #6e1f8f;
+}
+.main:hover .hoverbtn{
+    color: white;
+}
+ 
+ .row .col-4 img{
+  width: 120px;
+    height: 80px;
+ }
+ .imagewraper{
+    width: 180px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.059);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+ }
+
+.main, p{
+    font-size: 14px;
+}
+.main,p ,span{
+    text-align: left;
+}
+
+/* banner-section */
+.banner-section{
+height: 100vh;
+background-color: white;
+margin-top: 80px;
+}
+
+.banner-sectiontexts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.banner-sectiontexts span{
+font-size: small;
+font-weight: 400;
+}
+.megawrapper{
+    margin-top: 80px;
+}
+.banner-sectiontexts-2 img{
+    height: 40px;
+    width:50px;
+    
+}
+.banner-sectiontexts-2{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    width: 500px;
+
+}
+.banner-sectiontexts-2 h6{
+    color: black;
+}
+.last-banner{
+    background-image: url(./images/WhatsApp\ Image\ 2024-09-20\ at\ 18.45.50_7a2cb6be.jpg);
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.image-wrapperlast{
+    width: 65%;
+    margin-top: 100px;
+    padding: 40px;
+}
